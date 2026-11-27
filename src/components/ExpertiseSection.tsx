@@ -6,6 +6,8 @@ import {
   Code2,
   Layers,
   MessageSquareMore,
+  ShieldCheck,
+  TrendingUp,
   Workflow,
   type LucideIcon,
 } from "lucide-react";
@@ -21,6 +23,8 @@ const ICON_MAP: Record<ExpertiseItem["iconName"], LucideIcon> = {
   Layers,
   MessageSquareMore,
   BarChart3,
+  ShieldCheck,
+  TrendingUp,
 };
 
 export function ExpertiseSection({
@@ -43,7 +47,7 @@ export function ExpertiseSection({
           immediate={isStandalonePage}
         />
 
-        <StaggerGrid className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <StaggerGrid className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {EXPERTISE_AREAS.map((area) => {
             const Icon = ICON_MAP[area.iconName];
 

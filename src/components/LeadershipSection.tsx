@@ -38,7 +38,7 @@ export function LeadershipSection({
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeader
           eyebrow="Leadership & Vision"
-          title="My Vision. My Leadership. Our Future."
+          title="Vision. Leadership. Strategic Growth."
           theme="dark"
           titleId="leadership-heading"
           as={isStandalonePage ? "h1" : "h2"}

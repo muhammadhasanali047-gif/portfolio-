@@ -3,7 +3,7 @@ import { ArrowUpRight, Building2, CheckCircle2 } from "lucide-react";
 import { Reveal, StaggerGrid, StaggerItem } from "@/components/MotionPrimitives";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Tilt3DCard } from "@/components/Spatial3D";
-import { ERHA_SERVICES, EXECUTIVE_PROFILE } from "@/data/portfolio";
+import { EXECUTIVE_PROFILE } from "@/data/portfolio";
 
 export function ErhaSection({
   isStandalonePage = true,
@@ -83,43 +83,52 @@ export function ErhaSection({
             </Reveal>
           </div>
 
-          {/* Right Column — 10 Core Company Services */}
+          {/* Right Column — Practice Summary (avoids duplicating full Services grid) */}
           <div className="lg:col-span-7">
             <Reveal immediate={isStandalonePage} delay={0.1}>
               <div className="mb-5 flex flex-wrap items-center justify-between gap-2">
                 <h3 className="font-[family-name:var(--font-display)] text-sm font-bold uppercase tracking-[0.16em] text-[#101F49]">
-                  Core Service Capabilities
+                  Core Practice Pillars
                 </h3>
                 <Link
                   href="/services"
                   className="shrink-0 whitespace-nowrap text-xs font-semibold text-[#2F6BFF] transition-colors hover:text-[#101F49]"
                 >
-                  View All Services &rarr;
+                  Explore All Services &amp; Pricing &rarr;
                 </Link>
               </div>
             </Reveal>
 
-            <StaggerGrid className="grid gap-3.5 sm:grid-cols-2">
-              {ERHA_SERVICES.map((service) => (
-                <StaggerItem key={service.title}>
-                  <div className="surface-3d flex h-full items-start gap-3.5 rounded-xl border border-[#E2E5EE] bg-white p-5 transition-all duration-200 hover:-translate-y-1 hover:border-[#2F6BFF]/45 hover:shadow-[0_18px_34px_-18px_rgba(16,31,73,0.22)]">
+            <StaggerGrid className="grid gap-4 sm:grid-cols-3">
+              {[
+                {
+                  title: "AI & Data Systems",
+                  detail:
+                    "Workflow automation, AI agents, predictive analytics, and executive BI dashboards.",
+                },
+                {
+                  title: "Software & Cloud",
+                  detail:
+                    "Custom SaaS platforms, web & mobile apps, API integrations, DevOps, and cybersecurity.",
+                },
+                {
+                  title: "Design & Advisory",
+                  detail:
+                    "UI/UX product systems, digital growth strategy, and CTO-level technical consulting.",
+                },
+              ].map((pillar) => (
+                <StaggerItem key={pillar.title}>
+                  <div className="surface-3d flex h-full flex-col rounded-xl border border-[#E2E5EE] bg-white p-5 transition-all duration-200 hover:-translate-y-1 hover:border-[#2F6BFF]/45">
                     <CheckCircle2
-                      className="mt-0.5 h-4 w-4 shrink-0 text-[#2F6BFF]"
+                      className="h-5 w-5 text-[#2F6BFF]"
                       aria-hidden="true"
                     />
-                    <div className="min-w-0 flex-1">
-                      <div className="flex items-start justify-between gap-2">
-                        <h4 className="font-[family-name:var(--font-display)] text-sm font-bold leading-snug text-[#101F49]">
-                          {service.title}
-                        </h4>
-                        <span className="shrink-0 whitespace-nowrap rounded-md bg-[#F4F5F8] px-2 py-0.5 font-[family-name:var(--font-display)] text-xs font-bold text-[#101F49]">
-                          {service.price}
-                        </span>
-                      </div>
-                      <p className="mt-1.5 text-xs leading-relaxed text-[#344054]">
-                        {service.summary}
-                      </p>
-                    </div>
+                    <h4 className="mt-3 font-[family-name:var(--font-display)] text-sm font-bold text-[#101F49]">
+                      {pillar.title}
+                    </h4>
+                    <p className="mt-1.5 text-xs leading-relaxed text-[#344054]">
+                      {pillar.detail}
+                    </p>
                   </div>
                 </StaggerItem>
               ))}

@@ -13,7 +13,9 @@ export interface ExpertiseItem {
     | "Code2"
     | "Layers"
     | "MessageSquareMore"
-    | "BarChart3";
+    | "BarChart3"
+    | "ShieldCheck"
+    | "TrendingUp";
   tag: string;
 }
 
@@ -203,6 +205,22 @@ export const EXPERTISE_AREAS: ExpertiseItem[] = [
       "Transforming operational datasets into structured dashboards, analytical models, and decision-ready executive visibility.",
     iconName: "BarChart3",
     tag: "Decision Systems",
+  },
+  {
+    id: "cloud-devops-security",
+    title: "Cloud, DevOps & Cybersecurity",
+    description:
+      "Architecting resilient cloud infrastructure, automated CI/CD pipelines, and security-hardened enterprise systems.",
+    iconName: "ShieldCheck",
+    tag: "Infrastructure & Security",
+  },
+  {
+    id: "digital-marketing-growth",
+    title: "Digital Marketing & Growth Strategy",
+    description:
+      "Aligning outbound automation, analytics-driven campaigns, and conversion architecture with measurable commercial growth.",
+    iconName: "TrendingUp",
+    tag: "Digital Growth",
   },
 ];
 
@@ -461,7 +479,7 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
 export const ERHA_SERVICES: CompanyService[] = [
   {
     title: "AI & Automation Solutions",
-    price: "$1,000",
+    price: "From $2,500 / project",
     category: "AI & Data",
     iconName: "Bot",
     summary:
@@ -469,7 +487,7 @@ export const ERHA_SERVICES: CompanyService[] = [
   },
   {
     title: "Web & E-commerce Development",
-    price: "$900",
+    price: "From $1,500 / project",
     category: "Software & Cloud",
     iconName: "Globe",
     summary:
@@ -477,7 +495,7 @@ export const ERHA_SERVICES: CompanyService[] = [
   },
   {
     title: "Custom Software & SaaS Development",
-    price: "$1,500",
+    price: "From $3,500 / project",
     category: "Software & Cloud",
     iconName: "Layers",
     summary:
@@ -485,7 +503,7 @@ export const ERHA_SERVICES: CompanyService[] = [
   },
   {
     title: "Mobile App Development",
-    price: "$1,200",
+    price: "From $2,800 / project",
     category: "Software & Cloud",
     iconName: "Smartphone",
     summary:
@@ -493,7 +511,7 @@ export const ERHA_SERVICES: CompanyService[] = [
   },
   {
     title: "Database & Cloud Solutions",
-    price: "$800",
+    price: "From $1,500 / project",
     category: "Software & Cloud",
     iconName: "Database",
     summary:
@@ -501,7 +519,7 @@ export const ERHA_SERVICES: CompanyService[] = [
   },
   {
     title: "UI/UX & Graphic Design",
-    price: "$500",
+    price: "From $850 / project",
     category: "Design & Advisory",
     iconName: "Palette",
     summary:
@@ -509,7 +527,7 @@ export const ERHA_SERVICES: CompanyService[] = [
   },
   {
     title: "API & System Integration",
-    price: "$700",
+    price: "From $1,200 / project",
     category: "Software & Cloud",
     iconName: "Plug",
     summary:
@@ -517,7 +535,7 @@ export const ERHA_SERVICES: CompanyService[] = [
   },
   {
     title: "DevOps & Cybersecurity",
-    price: "$900",
+    price: "From $1,800 / project",
     category: "Software & Cloud",
     iconName: "ShieldCheck",
     summary:
@@ -525,7 +543,7 @@ export const ERHA_SERVICES: CompanyService[] = [
   },
   {
     title: "Data Science & Business Intelligence",
-    price: "$1,000",
+    price: "From $2,200 / project",
     category: "AI & Data",
     iconName: "BarChart3",
     summary:
@@ -533,7 +551,7 @@ export const ERHA_SERVICES: CompanyService[] = [
   },
   {
     title: "Digital Marketing & IT Consulting",
-    price: "$600/month",
+    price: "From $1,200 / month",
     category: "Design & Advisory",
     iconName: "Briefcase",
     summary:

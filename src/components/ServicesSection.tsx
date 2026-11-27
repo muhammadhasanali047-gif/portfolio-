@@ -150,7 +150,7 @@ export function ServicesSection({
                       </p>
 
                       <div className="mt-auto flex items-center justify-between gap-2 border-t border-[#E2E5EE] pt-3.5">
-                        <span className="font-[family-name:var(--font-display)] text-base font-bold text-[#101F49]">
+                        <span className="font-[family-name:var(--font-display)] text-sm font-bold text-[#101F49]">
                           {service.price}
                         </span>
 

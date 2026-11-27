@@ -12,6 +12,10 @@ import {
 } from "lucide-react";
 import { LinkedInIcon, WhatsAppIcon } from "@/components/BrandIcons";
 import { Reveal } from "@/components/MotionPrimitives";
+import {
+  getAssembledEmail,
+  useProtectedContact,
+} from "@/components/ProtectedContact";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Tilt3DCard } from "@/components/Spatial3D";
 import { EXECUTIVE_PROFILE } from "@/data/portfolio";
@@ -26,19 +30,22 @@ export function ContactSection({
   const [organization, setOrganization] = useState("");
   const [topic, setTopic] = useState("AI & Automation Consultation");
   const [message, setMessage] = useState("");
+  const { email, emailHref, phoneDisplay, phoneHref } = useProtectedContact();
 
   const handleCopyEmail = async () => {
+    const resolvedEmail = getAssembledEmail();
     try {
-      await navigator.clipboard.writeText(EXECUTIVE_PROFILE.email);
+      await navigator.clipboard.writeText(resolvedEmail);
       setCopiedEmail(true);
       window.setTimeout(() => setCopiedEmail(false), 2200);
     } catch {
-      window.location.href = `mailto:${EXECUTIVE_PROFILE.email}`;
+      window.location.href = `mailto:${resolvedEmail}`;
     }
   };
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    const resolvedEmail = getAssembledEmail();
     const subject = encodeURIComponent(
       `[Executive Inquiry] ${topic}${organization ? ` — ${organization}` : ""}`
     );
@@ -47,7 +54,7 @@ export function ContactSection({
         organization || "Not specified"
       }\nTopic: ${topic}\n\nMessage:\n${message || "I would like to connect regarding a business or technology initiative."}\n`
     );
-    window.location.href = `mailto:${EXECUTIVE_PROFILE.email}?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:${resolvedEmail}?subject=${subject}&body=${body}`;
   };
 
   return (
@@ -72,7 +79,7 @@ export function ContactSection({
               {/* Email */}
               <div className="flex flex-col gap-3 rounded-xl border border-[#E2E5EE] bg-white p-4 sm:flex-row sm:items-center sm:justify-between lg:flex-col lg:items-start xl:flex-row xl:items-center">
                 <a
-                  href={`mailto:${EXECUTIVE_PROFILE.email}`}
+                  href={emailHref}
                   className="group flex min-w-0 flex-1 items-center gap-3.5"
                 >
                   <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-[#F4F5F8] text-[#2F6BFF] transition-colors group-hover:bg-[#2F6BFF] group-hover:text-white">
@@ -83,7 +90,7 @@ export function ContactSection({
                       Email
                     </span>
                     <span className="block break-words text-[13px] font-semibold text-[#101F49] group-hover:text-[#2F6BFF] sm:text-sm">
-                      {EXECUTIVE_PROFILE.email}
+                      {email}
                     </span>
                   </span>
                 </a>
@@ -110,7 +117,7 @@ export function ContactSection({
 
               {/* Phone */}
               <a
-                href={`tel:${EXECUTIVE_PROFILE.phone}`}
+                href={phoneHref}
                 className="group flex items-center gap-3.5 rounded-xl border border-[#E2E5EE] bg-white p-4 transition-colors hover:border-[#2F6BFF]/45"
               >
                 <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-[#F4F5F8] text-[#2F6BFF] transition-colors group-hover:bg-[#2F6BFF] group-hover:text-white">
@@ -121,7 +128,7 @@ export function ContactSection({
                     Phone
                   </span>
                   <span className="block text-sm font-semibold text-[#101F49] group-hover:text-[#2F6BFF]">
-                    {EXECUTIVE_PROFILE.phone}
+                    {phoneDisplay}
                   </span>
                 </span>
               </a>

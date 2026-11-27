@@ -1,6 +1,10 @@
 import Link from "next/link";
-import { ArrowUpRight, Globe, Mail, Phone } from "lucide-react";
+import { ArrowUpRight, Globe } from "lucide-react";
 import { LinkedInIcon, WhatsAppIcon } from "@/components/BrandIcons";
+import {
+  ProtectedEmailLink,
+  ProtectedPhoneLink,
+} from "@/components/ProtectedContact";
 import { EXECUTIVE_PROFILE, NAV_ITEMS } from "@/data/portfolio";
 
 export function Footer() {
@@ -62,22 +66,10 @@ export function Footer() {
             </h2>
             <ul className="mt-4 space-y-3 text-sm">
               <li>
-                <a
-                  href={`mailto:${EXECUTIVE_PROFILE.email}`}
-                  className="inline-flex items-center gap-2.5 text-[#BDBFCC] transition-colors hover:text-white"
-                >
-                  <Mail className="h-4 w-4 text-[#2F6BFF]" aria-hidden="true" />
-                  <span>{EXECUTIVE_PROFILE.email}</span>
-                </a>
+                <ProtectedEmailLink className="inline-flex items-center gap-2.5 text-[#BDBFCC] transition-colors hover:text-white" />
               </li>
               <li>
-                <a
-                  href={`tel:${EXECUTIVE_PROFILE.phone}`}
-                  className="inline-flex items-center gap-2.5 text-[#BDBFCC] transition-colors hover:text-white"
-                >
-                  <Phone className="h-4 w-4 text-[#2F6BFF]" aria-hidden="true" />
-                  <span>{EXECUTIVE_PROFILE.phone}</span>
-                </a>
+                <ProtectedPhoneLink className="inline-flex items-center gap-2.5 text-[#BDBFCC] transition-colors hover:text-white" />
               </li>
               <li>
                 <a
