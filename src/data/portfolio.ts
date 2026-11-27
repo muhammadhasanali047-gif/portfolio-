@@ -151,7 +151,7 @@ export const ABOUT_SECTION = {
     },
     {
       label: "Academic Background",
-      value: "PhD in Computer Science (In Progress) · MS IT",
+      value: "PhD in Computer Science (2024–2028, Continuing) · MS IT (2018–2020)",
       isPlaceholder: false,
     },
   ],
@@ -563,6 +563,36 @@ export const TIMELINE_ENTRIES: TimelineEntry[] = [
     isVerified: true,
   },
   {
+    id: "role-numl",
+    category: "Professional Roles",
+    title: "Faculty Member",
+    organization: "National University of Modern Languages (NUML)",
+    period: "2025 – 2026",
+    description:
+      "Served in an academic and teaching role at NUML, contributing to computer science and information technology instruction.",
+    isVerified: true,
+  },
+  {
+    id: "role-mnsuam",
+    category: "Professional Roles",
+    title: "Faculty Member",
+    organization: "Muhammad Nawaz Shareef University of Agriculture, Multan (MNSUAM)",
+    period: "2023 – 2025",
+    description:
+      "Served in an academic and teaching role at MNSUAM, guiding students in computing, software engineering, and modern technology.",
+    isVerified: true,
+  },
+  {
+    id: "role-bzu",
+    category: "Professional Roles",
+    title: "Faculty Member",
+    organization: "Bahauddin Zakariya University (BZU)",
+    period: "2021 – 2023",
+    description:
+      "Served in an academic and teaching role at Bahauddin Zakariya University, supporting computer science and IT education.",
+    isVerified: true,
+  },
+  {
     id: "milestone-erha-2023",
     category: "Company Milestones",
     title: "Founded ERHA Technologies",
@@ -575,21 +605,21 @@ export const TIMELINE_ENTRIES: TimelineEntry[] = [
   {
     id: "education-phd-cs",
     category: "Education",
-    title: "PhD in Computer Science (In Progress)",
+    title: "PhD in Computer Science (Continuing)",
     organization: "Doctoral Studies — Computer Science",
-    period: "Continuing",
+    period: "2024 – 2028",
     description:
-      "Currently pursuing doctoral research in Computer Science, bridging advanced computing theory with applied artificial intelligence and scalable enterprise systems.",
+      "Currently pursuing doctoral research in Computer Science (2024–2028), bridging advanced computing theory with applied artificial intelligence and scalable enterprise systems.",
     isVerified: true,
   },
   {
-    id: "certification-ms-it",
-    category: "Certifications",
+    id: "education-ms-it",
+    category: "Education",
     title: "MS in Information Technology (MS IT)",
-    organization: "Graduate Credential — Information Technology",
-    period: "Completed",
+    organization: "Graduate Degree — Information Technology",
+    period: "2018 – 2020",
     description:
-      "Earned a Master of Science in Information Technology certification prior to advancing into doctoral studies in Computer Science.",
+      "Completed Master of Science in Information Technology (2018–2020) prior to advancing into doctoral studies in Computer Science.",
     isVerified: true,
   },
   {
