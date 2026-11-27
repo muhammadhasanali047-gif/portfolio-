@@ -106,7 +106,7 @@ export const EXECUTIVE_PROFILE = {
   phoneDisplay: "+92 328 137 3200",
   whatsappUrl: "https://wa.me/923281373200",
   // Verified executive links
-  linkedinUrl: "https://www.linkedin.com/mynetwork/grow/" as string | null,
+  linkedinUrl: "https://www.linkedin.com/in/faiz-jillani-5719341b7" as string | null,
   companyWebsiteUrl: "https://erhatechnologies.com",
   hasCompanyLogoAsset: false,
   footerTagline: "Leadership | Innovation | Technology | Growth",
