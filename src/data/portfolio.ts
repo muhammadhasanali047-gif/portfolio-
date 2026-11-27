@@ -557,7 +557,7 @@ export const TIMELINE_ENTRIES: TimelineEntry[] = [
     category: "Professional Roles",
     title: "Chief Technology Officer (CTO)",
     organization: "ERHA Technologies",
-    period: "2023 – Present",
+    period: "2022 – Present",
     description:
       "Leading executive strategy, product architecture, AI automation initiatives, and custom software delivery at ERHA Technologies.",
     isVerified: true,
@@ -593,13 +593,13 @@ export const TIMELINE_ENTRIES: TimelineEntry[] = [
     isVerified: true,
   },
   {
-    id: "milestone-erha-2023",
+    id: "milestone-erha-2022",
     category: "Company Milestones",
     title: "Founded ERHA Technologies",
     organization: "ERHA Technologies",
-    period: "2023",
+    period: "2022",
     description:
-      "Established ERHA Technologies in 2023 to help businesses modernize operations through AI automation, intelligent chatbots, SaaS engineering, cloud infrastructure, and business intelligence.",
+      "Established ERHA Technologies in 2022 to help businesses modernize operations through AI automation, intelligent chatbots, SaaS engineering, cloud infrastructure, and business intelligence.",
     isVerified: true,
   },
   {
