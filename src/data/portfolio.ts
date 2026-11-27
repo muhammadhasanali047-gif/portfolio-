@@ -593,6 +593,86 @@ export const TIMELINE_ENTRIES: TimelineEntry[] = [
     isVerified: true,
   },
   {
+    id: "certification-cyber-security-ics",
+    category: "Certifications",
+    title: "Cyber Security of Industrial Control Systems",
+    organization: "IEEE",
+    period: "May 2020",
+    description:
+      "Completed IEEE continuing education course on Cyber Security of Industrial Control Systems, covering threat analysis and protection of critical infrastructure.",
+    isVerified: true,
+  },
+  {
+    id: "certification-fuzzy-clustering",
+    category: "Certifications",
+    title: "Fuzzy Clustering in Very Large Data Sets",
+    organization: "IEEE",
+    period: "May 2020",
+    description:
+      "Completed IEEE continuing education course on fuzzy clustering techniques applied to very large data sets for advanced data analysis.",
+    isVerified: true,
+  },
+  {
+    id: "certification-wireless-sensor",
+    category: "Certifications",
+    title: "Wireless Sensor Networks and Applications",
+    organization: "IEEE",
+    period: "May 2020",
+    description:
+      "Completed IEEE continuing education course on wireless sensor network architectures and their real-world applications.",
+    isVerified: true,
+  },
+  {
+    id: "certification-blockchain",
+    category: "Certifications",
+    title: "Understanding Blockchain Technology",
+    organization: "IEEE",
+    period: "May 2020",
+    description:
+      "Completed IEEE continuing education course on blockchain fundamentals, abstracting core concepts and distributed ledger technology.",
+    isVerified: true,
+  },
+  {
+    id: "certification-neural-networks-rf",
+    category: "Certifications",
+    title: "Applications of Neural Networks for RF Design",
+    organization: "IEEE",
+    period: "June 2020",
+    description:
+      "Completed IEEE continuing education course on applying neural network techniques to radio frequency (RF) design and optimization.",
+    isVerified: true,
+  },
+  {
+    id: "certification-software-construction",
+    category: "Certifications",
+    title: "Software Construction, Methods and Tools (CSDA)",
+    organization: "IEEE",
+    period: "June 2020",
+    description:
+      "Completed IEEE CSDA continuing education course covering software construction methodologies, development tools, and best practices.",
+    isVerified: true,
+  },
+  {
+    id: "certification-discover-5g",
+    category: "Certifications",
+    title: "Discover 5G",
+    organization: "IEEE",
+    period: "June 2020",
+    description:
+      "Completed IEEE continuing education course on 5G technology fundamentals, architecture, and next-generation mobile network applications.",
+    isVerified: true,
+  },
+  {
+    id: "certification-rfid",
+    category: "Certifications",
+    title: "Principles and Applications of RFID",
+    organization: "IEEE",
+    period: "July 2020",
+    description:
+      "Completed IEEE continuing education course on RFID principles, protocols, and practical applications in identification and tracking systems.",
+    isVerified: true,
+  },
+  {
     id: "important-project-ai-suite",
     category: "Important Projects",
     title: "Enterprise AI Automation & WhatsApp Chatbot Ecosystem",
