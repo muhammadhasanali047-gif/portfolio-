@@ -259,9 +259,9 @@ export const FEATURED_PROJECTS: ProjectItem[] = [
     isPlaceholderContent: false,
   },
   {
-    id: "mailify-email-tracker",
+    id: "anxiefy-pro-email-tracker",
     category: "Email Campaign Manager",
-    title: "Mailify — Email Tracking & Analytics Platform",
+    title: "Anxiefy Pro — Email Tracking & Analytics Platform",
     shortDescription:
       "Multi-tenant SaaS email tracking and engagement analytics platform with Google Apps Script and REST API integration.",
     problemSolved:
@@ -274,13 +274,13 @@ export const FEATURED_PROJECTS: ProjectItem[] = [
       "Apps Script",
     ],
     keyFeatures: [
-      "1x1 open tracking pixel and Cheerio-powered safe 302 click redirects",
+      "1×1 open tracking pixel and Cheerio-powered safe 302 click redirects",
       "SHA-256 hashed multi-tenant API keys with Supabase Row Level Security",
       "Real-time Recharts analytics and per-email event timelines",
     ],
-    screenshotPath: "/images/projects/mailify-logo.png",
+    screenshotPath: "/images/projects/anxiefy-pro-logo.png",
     imageFit: "contain",
-    screenshotPlaceholderLabel: "Mailify Email Tracking & Analytics Platform",
+    screenshotPlaceholderLabel: "Anxiefy Pro Email Tracking & Analytics Platform",
     demoUrl: null,
     isPlaceholderContent: false,
   },
