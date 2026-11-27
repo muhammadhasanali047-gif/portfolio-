@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowUpRight, Globe, Mail, Phone } from "lucide-react";
-import { LinkedInIcon } from "@/components/BrandIcons";
+import { LinkedInIcon, WhatsAppIcon } from "@/components/BrandIcons";
 import { EXECUTIVE_PROFILE, NAV_ITEMS } from "@/data/portfolio";
 
 export function Footer() {
@@ -81,6 +81,18 @@ export function Footer() {
                 >
                   <Phone className="h-4 w-4 text-[#2F6BFF]" aria-hidden="true" />
                   <span>{EXECUTIVE_PROFILE.phone}</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href={EXECUTIVE_PROFILE.whatsappUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2.5 text-[#BDBFCC] transition-colors hover:text-white"
+                >
+                  <WhatsAppIcon className="h-4 w-4 text-[#25D366]" aria-hidden="true" />
+                  <span>WhatsApp ({EXECUTIVE_PROFILE.phoneDisplay})</span>
+                  <ArrowUpRight className="h-3.5 w-3.5" aria-hidden="true" />
                 </a>
               </li>
               <li>

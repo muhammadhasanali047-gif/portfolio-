@@ -104,6 +104,7 @@ export const EXECUTIVE_PROFILE = {
   email: "info@erhatechnologies.com",
   phone: "+923281373200",
   phoneDisplay: "+92 328 137 3200",
+  whatsappUrl: "https://wa.me/923281373200",
   // Verified executive links
   linkedinUrl: "https://www.linkedin.com/mynetwork/grow/" as string | null,
   companyWebsiteUrl: "https://erhatechnologies.com",

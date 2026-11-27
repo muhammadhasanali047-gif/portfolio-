@@ -10,7 +10,7 @@ import {
   Phone,
   Send,
 } from "lucide-react";
-import { LinkedInIcon } from "@/components/BrandIcons";
+import { LinkedInIcon, WhatsAppIcon } from "@/components/BrandIcons";
 import { Reveal } from "@/components/MotionPrimitives";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Tilt3DCard } from "@/components/Spatial3D";
@@ -125,6 +125,32 @@ export function ContactSection({
                     {EXECUTIVE_PROFILE.phone}
                   </span>
                 </span>
+              </a>
+
+              {/* WhatsApp */}
+              <a
+                href={EXECUTIVE_PROFILE.whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center justify-between gap-3 rounded-xl border border-[#E2E5EE] bg-white p-4 transition-colors hover:border-[#25D366]/60"
+              >
+                <span className="flex items-center gap-3.5">
+                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-[#F4F5F8] text-[#101F49] transition-colors group-hover:bg-[#25D366] group-hover:text-white">
+                    <WhatsAppIcon className="h-4 w-4" aria-hidden="true" />
+                  </span>
+                  <span>
+                    <span className="block text-[11px] font-semibold uppercase tracking-wider text-[#667085]">
+                      WhatsApp
+                    </span>
+                    <span className="block text-sm font-semibold text-[#101F49] group-hover:text-[#128C7E]">
+                      {EXECUTIVE_PROFILE.phoneDisplay}
+                    </span>
+                  </span>
+                </span>
+                <ArrowUpRight
+                  className="h-4 w-4 text-[#667085] transition-colors group-hover:text-[#128C7E]"
+                  aria-hidden="true"
+                />
               </a>
 
               {/* Company */}
