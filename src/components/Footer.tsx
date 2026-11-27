@@ -26,10 +26,6 @@ export function Footer() {
                 </p>
               </div>
             </div>
-
-            <p className="mt-5 text-xs font-semibold uppercase tracking-[0.18em] text-[#2F6BFF]">
-              {EXECUTIVE_PROFILE.footerTagline}
-            </p>
           </div>
 
           {/* Navigation Links */}
@@ -119,12 +115,7 @@ export function Footer() {
                     <span>LinkedIn Profile</span>
                     <ArrowUpRight className="h-3.5 w-3.5" aria-hidden="true" />
                   </a>
-                ) : (
-                  <span className="inline-flex items-center gap-2.5 text-[#BDBFCC]/70">
-                    <LinkedInIcon className="h-4 w-4 text-[#667085]" aria-hidden="true" />
-                    <span>LinkedIn — Pending Verified URL</span>
-                  </span>
-                )}
+                ) : null}
               </li>
             </ul>
           </div>

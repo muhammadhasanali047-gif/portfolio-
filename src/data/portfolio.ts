@@ -127,15 +127,14 @@ export const ABOUT_SECTION = {
   eyebrow: "About the CTO",
   heading: "Turning Technology Into Business Growth.",
   leadParagraph:
-    "As Chief Executive Officer of ERHA Technologies, Faiz Jillani leads the strategic direction of a technology-driven organization focused on AI automation, intelligent business systems, and custom software engineering.",
+    "As Chief Technology Officer of ERHA Technologies, Faiz Jillani leads the strategic direction of a technology-driven organization focused on AI automation, intelligent business systems, and custom software engineering.",
   bodyParagraphs: [
     "His work centers on bridging practical executive strategy with modern engineering—helping organizations replace fragmented manual operations with reliable, scalable digital infrastructure.",
-    "At ERHA Technologies, his leadership philosophy prioritizes clarity of execution, product quality, and measurable operational discipline so technology serves real business outcomes rather than complexity for its own sake.",
   ],
   editableExecutiveFacts: [
     {
       label: "Current Appointment",
-      value: "Chief Executive Officer, ERHA Technologies",
+      value: "Chief Technology Officer, ERHA Technologies",
       isPlaceholder: false,
     },
     {

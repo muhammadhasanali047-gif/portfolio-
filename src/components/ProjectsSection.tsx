@@ -43,7 +43,6 @@ export function ProjectsSection({
         <SectionHeader
           eyebrow="Featured Projects"
           title="Intelligent Systems & Software Architecture."
-          subtitle="Core solution domains engineered to streamline communication, automate outreach, and unify executive analytics."
           titleId="projects-heading"
           as={isStandalonePage ? "h1" : "h2"}
           immediate={isStandalonePage}

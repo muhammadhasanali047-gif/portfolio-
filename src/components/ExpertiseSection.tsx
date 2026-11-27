@@ -38,7 +38,6 @@ export function ExpertiseSection({
         <SectionHeader
           eyebrow="Areas of Expertise"
           title="Strategic Capabilities Built for Modern Enterprises."
-          subtitle="Focused across artificial intelligence, automation infrastructure, full-stack software engineering, and decision-ready business intelligence."
           titleId="expertise-heading"
           as={isStandalonePage ? "h1" : "h2"}
           immediate={isStandalonePage}

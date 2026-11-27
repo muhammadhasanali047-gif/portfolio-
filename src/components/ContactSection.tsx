@@ -60,7 +60,6 @@ export function ContactSection({
         <SectionHeader
           eyebrow="Executive Contact"
           title="Let's Build Something Meaningful Together."
-          subtitle="Connect directly for strategic partnerships, AI automation initiatives, enterprise software architecture, or executive inquiries."
           titleId="contact-heading"
           as={isStandalonePage ? "h1" : "h2"}
           immediate={isStandalonePage}
@@ -214,9 +213,8 @@ export function ContactSection({
                     <span className="block text-[11px] font-semibold uppercase tracking-wider text-[#667085]">
                       LinkedIn
                     </span>
-                    <span className="block text-xs font-medium italic text-[#667085]">
-                      Verified LinkedIn URL pending confirmation (editable in{" "}
-                      <code className="font-mono">src/data/portfolio.ts</code>)
+                    <span className="block text-xs font-medium text-[#667085]">
+                      Available upon request
                     </span>
                   </div>
                 </div>
@@ -236,13 +234,6 @@ export function ContactSection({
                   <h3 className="mt-0.5 font-[family-name:var(--font-display)] text-lg font-bold text-[#101F49]">
                     Direct Executive Inquiry
                   </h3>
-                  <p className="mt-1 text-xs leading-relaxed text-[#344054] sm:text-[13px]">
-                    Compose your message below to open a pre-addressed email to{" "}
-                    <span className="font-semibold text-[#101F49]">
-                      {EXECUTIVE_PROFILE.email}
-                    </span>
-                    .
-                  </p>
                 </div>
 
                 <form onSubmit={handleSubmit} className="mt-4 space-y-3.5">

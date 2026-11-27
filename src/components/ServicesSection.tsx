@@ -64,7 +64,6 @@ export function ServicesSection({
         <SectionHeader
           eyebrow="Services"
           title="End-to-End Technology & AI Services."
-          subtitle="Comprehensive delivery across artificial intelligence, custom software engineering, cloud infrastructure, and strategic digital consulting through ERHA Technologies."
           titleId="services-heading"
           as={isStandalonePage ? "h1" : "h2"}
           immediate={isStandalonePage}

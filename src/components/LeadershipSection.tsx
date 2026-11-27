@@ -39,7 +39,6 @@ export function LeadershipSection({
         <SectionHeader
           eyebrow="Leadership & Vision"
           title="My Vision. My Leadership. Our Future."
-          subtitle="Guiding technology initiatives with clarity of purpose, disciplined engineering standards, and long-term business responsibility."
           theme="dark"
           titleId="leadership-heading"
           as={isStandalonePage ? "h1" : "h2"}

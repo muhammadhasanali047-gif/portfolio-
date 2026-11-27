@@ -47,7 +47,6 @@ export function TimelineSection() {
         <SectionHeader
           eyebrow="Experience & Achievements"
           title="Executive Record & Milestones."
-          subtitle="Leadership tenure, company milestones, academic progression, certifications, and flagship systems delivered at ERHA Technologies."
           titleId="experience-heading"
           as="h2"
           immediate={false}

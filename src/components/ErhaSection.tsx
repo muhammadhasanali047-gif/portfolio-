@@ -55,7 +55,7 @@ export function ErhaSection({
                         ERHA TECHNOLOGIES
                       </p>
                       <p className="text-xs font-medium text-[#475467]">
-                        Led by {EXECUTIVE_PROFILE.name}, Chief Executive Officer
+                        Led by {EXECUTIVE_PROFILE.name}, Chief Technology Officer
                       </p>
                     </div>
                   </div>
