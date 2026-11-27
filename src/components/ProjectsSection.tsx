@@ -155,16 +155,6 @@ export function ProjectsSection({
                         {project.title}
                       </h3>
 
-                      {/* Problem Solved */}
-                      <div className="mt-3 rounded-lg border border-[#E2E5EE] bg-[#F4F5F8] p-3">
-                        <p className="text-[10px] font-semibold uppercase tracking-[0.14em] text-[#2F6BFF]">
-                          Problem Solved
-                        </p>
-                        <p className="mt-0.5 text-xs leading-relaxed text-[#101F49]">
-                          {project.problemSolved}
-                        </p>
-                      </div>
-
                       {/* Key Features */}
                       <div className="mt-3.5">
                         <p className="text-[10px] font-semibold uppercase tracking-[0.14em] text-[#667085]">
