@@ -6,7 +6,7 @@ import { motion, useReducedMotion } from "framer-motion";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { Floating3DAccent, Tilt3DCard } from "@/components/Spatial3D";
 import { TypewriterHeadline } from "@/components/TypewriterHeadline";
-import ceoPortrait from "../../public/images/faiz-jillani-portrait.jpg";
+import ctoPortrait from "../../public/images/faiz-jillani-portrait.jpg";
 import { EXECUTIVE_PROFILE } from "@/data/portfolio";
 
 const EASE = [0.22, 1, 0.36, 1] as const;
@@ -127,7 +127,7 @@ export function HeroSection() {
               <div className="overflow-hidden rounded-2xl border border-[#BDBFCC]/85 bg-[#BDBFCC] ring-1 ring-inset ring-white/50">
                 <div className="relative aspect-square w-full bg-[#BDBFCC]">
                   <Image
-                    src={ceoPortrait}
+                    src={ctoPortrait}
                     alt={EXECUTIVE_PROFILE.portraitAlt}
                     fill
                     priority

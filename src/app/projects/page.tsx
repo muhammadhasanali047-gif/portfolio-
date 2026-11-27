@@ -3,7 +3,7 @@ import { PageNavigator } from "@/components/PageNavigator";
 import { ProjectsSection } from "@/components/ProjectsSection";
 
 export const metadata: Metadata = {
-  title: "Projects | Faiz Jillani — CEO of ERHA Technologies",
+  title: "Projects | Faiz Jillani — CTO of ERHA Technologies",
   description:
     "Featured intelligent software and automation categories including WhatsApp chatbots, email and LinkedIn automation, AI workflows, and BI analytics.",
 };

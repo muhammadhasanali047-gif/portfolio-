@@ -24,12 +24,12 @@ export const metadata: Metadata = {
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_SITE_URL ?? "https://erhatechnologies.com"
   ),
-  title: "Faiz Jillani | CEO of ERHA Technologies",
+  title: "Faiz Jillani | CTO of ERHA Technologies",
   description:
-    "Discover Faiz Jillani, CEO of ERHA Technologies, focused on AI automation, intelligent business solutions, technology innovation and digital transformation.",
+    "Discover Faiz Jillani, CTO of ERHA Technologies, focused on AI automation, intelligent business solutions, technology innovation and digital transformation.",
   keywords: [
     "Faiz Jillani",
-    "CEO of ERHA Technologies",
+    "CTO of ERHA Technologies",
     "ERHA Technologies",
     "AI Automation",
     "Intelligent Business Solutions",
@@ -38,9 +38,9 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Faiz Jillani" }],
   openGraph: {
-    title: "Faiz Jillani | CEO of ERHA Technologies",
+    title: "Faiz Jillani | CTO of ERHA Technologies",
     description:
-      "Discover Faiz Jillani, CEO of ERHA Technologies, focused on AI automation, intelligent business solutions, technology innovation and digital transformation.",
+      "Discover Faiz Jillani, CTO of ERHA Technologies, focused on AI automation, intelligent business solutions, technology innovation and digital transformation.",
     type: "website",
     locale: "en_US",
     siteName: "Faiz Jillani — Executive Portfolio",
@@ -49,15 +49,15 @@ export const metadata: Metadata = {
         url: "/images/faiz-jillani-portrait.jpg",
         width: 1024,
         height: 1024,
-        alt: "Faiz Jillani — CEO of ERHA Technologies",
+        alt: "Faiz Jillani — CTO of ERHA Technologies",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Faiz Jillani | CEO of ERHA Technologies",
+    title: "Faiz Jillani | CTO of ERHA Technologies",
     description:
-      "Discover Faiz Jillani, CEO of ERHA Technologies, focused on AI automation, intelligent business solutions, technology innovation and digital transformation.",
+      "Discover Faiz Jillani, CTO of ERHA Technologies, focused on AI automation, intelligent business solutions, technology innovation and digital transformation.",
     images: ["/images/faiz-jillani-portrait.jpg"],
   },
 };

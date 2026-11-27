@@ -4,9 +4,9 @@ import { PageNavigator } from "@/components/PageNavigator";
 import { TimelineSection } from "@/components/TimelineSection";
 
 export const metadata: Metadata = {
-  title: "About | Faiz Jillani — CEO of ERHA Technologies",
+  title: "About | Faiz Jillani — CTO of ERHA Technologies",
   description:
-    "Executive biography, leadership philosophy, and verified career record of Faiz Jillani, CEO of ERHA Technologies.",
+    "Executive biography, leadership philosophy, and verified career record of Faiz Jillani, CTO of ERHA Technologies.",
 };
 
 export default function AboutPage() {

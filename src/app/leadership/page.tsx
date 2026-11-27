@@ -3,7 +3,7 @@ import { LeadershipSection } from "@/components/LeadershipSection";
 import { PageNavigator } from "@/components/PageNavigator";
 
 export const metadata: Metadata = {
-  title: "Leadership & Vision | Faiz Jillani — CEO of ERHA Technologies",
+  title: "Leadership & Vision | Faiz Jillani — CTO of ERHA Technologies",
   description:
     "Executive vision and leadership principles centered on Innovation, Leadership, and Growth at ERHA Technologies.",
 };

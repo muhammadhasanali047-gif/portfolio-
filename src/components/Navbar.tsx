@@ -65,7 +65,7 @@ export function Navbar() {
               {EXECUTIVE_PROFILE.brandTitle}
             </span>
             <span className="hidden whitespace-nowrap text-[11px] font-medium tracking-wide text-[#475467] xl:block">
-              CEO — ERHA Technologies
+              CTO — ERHA Technologies
             </span>
           </span>
         </Link>

@@ -92,15 +92,15 @@ export interface TimelineEntry {
 export const EXECUTIVE_PROFILE = {
   name: "Faiz Jillani",
   brandTitle: "FAIZ JILLANI",
-  roleLabel: "CEO & TECHNOLOGY LEADER",
-  roleTitle: "CEO — ERHA Technologies",
+  roleLabel: "CTO & TECHNOLOGY LEADER",
+  roleTitle: "CTO — ERHA Technologies",
   company: "ERHA Technologies",
   heroHeadline: "Building Smarter Businesses Through Technology.",
   heroSubheadline:
     "Driving innovation through AI automation, intelligent business solutions and custom software development.",
   portraitPath: "/images/faiz-jillani-portrait.jpg",
   portraitAlt:
-    "Faiz Jillani, CEO of ERHA Technologies, in a tailored navy blue three-piece suit against a cool light grey studio backdrop.",
+    "Faiz Jillani, CTO of ERHA Technologies, in a tailored navy blue three-piece suit against a cool light grey studio backdrop.",
   email: "info@erhatechnologies.com",
   phone: "+923281373200",
   phoneDisplay: "+92 328 137 3200",
@@ -125,7 +125,7 @@ export const NAV_ITEMS: NavItem[] = [
 ];
 
 export const ABOUT_SECTION = {
-  eyebrow: "About the CEO",
+  eyebrow: "About the CTO",
   heading: "Turning Technology Into Business Growth.",
   leadParagraph:
     "As Chief Executive Officer of ERHA Technologies, Faiz Jillani leads the strategic direction of a technology-driven organization focused on AI automation, intelligent business systems, and custom software engineering.",
@@ -553,9 +553,9 @@ export const TIMELINE_CATEGORIES: TimelineCategory[] = [
 
 export const TIMELINE_ENTRIES: TimelineEntry[] = [
   {
-    id: "role-ceo-erha",
+    id: "role-cto-erha",
     category: "Professional Roles",
-    title: "Chief Executive Officer (CEO)",
+    title: "Chief Technology Officer (CTO)",
     organization: "ERHA Technologies",
     period: "2023 – Present",
     description:

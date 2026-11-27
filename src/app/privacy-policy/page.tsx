@@ -5,9 +5,9 @@ import { SectionHeader } from "@/components/SectionHeader";
 import { EXECUTIVE_PROFILE } from "@/data/portfolio";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Faiz Jillani — CEO of ERHA Technologies",
+  title: "Privacy Policy | Faiz Jillani — CTO of ERHA Technologies",
   description:
-    "Privacy Policy for the executive portfolio of Faiz Jillani, CEO of ERHA Technologies, covering inquiry handling, technical data, and contact details.",
+    "Privacy Policy for the executive portfolio of Faiz Jillani, CTO of ERHA Technologies, covering inquiry handling, technical data, and contact details.",
 };
 
 const POLICY_SECTIONS = [

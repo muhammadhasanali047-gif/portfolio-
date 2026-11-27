@@ -3,9 +3,9 @@ import { ContactSection } from "@/components/ContactSection";
 import { PageNavigator } from "@/components/PageNavigator";
 
 export const metadata: Metadata = {
-  title: "Contact | Faiz Jillani — CEO of ERHA Technologies",
+  title: "Contact | Faiz Jillani — CTO of ERHA Technologies",
   description:
-    "Connect directly with Faiz Jillani, CEO of ERHA Technologies, via email, phone, or an executive inquiry.",
+    "Connect directly with Faiz Jillani, CTO of ERHA Technologies, via email, phone, or an executive inquiry.",
 };
 
 export default function ContactPage() {

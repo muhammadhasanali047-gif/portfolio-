@@ -7,7 +7,6 @@ import {
   ArrowUpRight,
   Check,
   FileImage,
-  Layers3,
 } from "lucide-react";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Tilt3DCard } from "@/components/Spatial3D";
@@ -187,23 +186,7 @@ export function ProjectsSection({
                         </ul>
                       </div>
 
-                      {/* Technology Stack */}
-                      <div className="mt-auto pt-4">
-                        <div className="flex flex-wrap items-center gap-1.5 border-t border-[#E2E5EE] pt-3.5">
-                          <Layers3
-                            className="mr-0.5 h-3 w-3 shrink-0 text-[#475467]"
-                            aria-hidden="true"
-                          />
-                          {project.techStack.map((tech) => (
-                            <span
-                              key={tech}
-                              className="rounded border border-[#E2E5EE] bg-[#F4F5F8] px-2 py-0.5 text-[11px] font-medium text-[#101F49]"
-                            >
-                              {tech}
-                            </span>
-                          ))}
-                        </div>
-                      </div>
+
 
                       {project.demoUrl ? (
                         <div className="pt-3">
