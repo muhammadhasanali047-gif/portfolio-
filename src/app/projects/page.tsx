@@ -14,7 +14,7 @@ export default function ProjectsPage() {
       <ProjectsSection />
       <PageNavigator
         previous={{ label: "Services", href: "/services" }}
-        next={{ label: "Leadership & Vision", href: "/leadership" }}
+        next={{ label: "ERHA Technologies", href: "/erha-technologies" }}
       />
     </>
   );

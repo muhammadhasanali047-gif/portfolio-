@@ -13,7 +13,7 @@ export default function ErhaTechnologiesPage() {
     <>
       <ErhaSection />
       <PageNavigator
-        previous={{ label: "Leadership & Vision", href: "/leadership" }}
+        previous={{ label: "Projects", href: "/projects" }}
         next={{ label: "Executive Contact", href: "/contact" }}
       />
     </>

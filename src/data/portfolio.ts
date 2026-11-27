@@ -119,7 +119,6 @@ export const NAV_ITEMS: NavItem[] = [
   { label: "Expertise", href: "/expertise" },
   { label: "Services", href: "/services" },
   { label: "Projects", href: "/projects" },
-  { label: "Leadership", href: "/leadership" },
   { label: "ERHA Technologies", href: "/erha-technologies" },
   { label: "Contact", href: "/contact" },
 ];
